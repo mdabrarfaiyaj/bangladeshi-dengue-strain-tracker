@@ -54,7 +54,7 @@ That's it! Your dashboard should open in a browser.
 ## 📁 Project Structure
 
 ```
-bangladesh-dengue-strain-tracker/
+bangladeshi-dengue-strain-tracker/
 ├── app.R                     # Main Shiny dashboard
 ├── analyze_sequences.R       # QC, motif analysis & data processing
 ├── install_packages.R        # Installs CRAN + Bioconductor packages
@@ -127,6 +127,10 @@ rsconnect::deployApp(
 
 ---
 
+📝 **Blog post:** [Building My First Dashboard: Dengue Virus in Bangladesh](https://mdabrarfaiyaj.github.io/posts/Building-My-First-Dashboard-Dengue-in-Bangladesh/)
+
+---
+
 ## 📚 Data Sources
 All sequences are from peer-reviewed publications deposited in NCBI GenBank:
 1. **Nasif et al. (2024)** - MRA 00162-24: 12 Dhaka sequences, Link: https://journals.asm.org/doi/10.1128/mra.00162-24
@@ -155,7 +159,7 @@ All sequences are from peer-reviewed publications deposited in NCBI GenBank:
 ## 📚 How to Cite This Work
 If you use or reference this dashboard:
 
-Md. Abrar Faiyaj (2026). Bangladeshi Dengue Strain Tracker . GitHub repository: https://github.com/mdabrarfaiyaj/bangladesh-dengue-strain-tracker
+Md. Abrar Faiyaj (2026). Bangladeshi Dengue Strain Tracker . GitHub repository: https://github.com/mdabrarfaiyaj/bangladeshi-dengue-strain-tracker
 - - -
 ## Open-source under the MIT License
 Last updated: 10th February, 2026
